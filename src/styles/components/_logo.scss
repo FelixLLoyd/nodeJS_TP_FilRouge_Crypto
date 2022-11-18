@@ -1,0 +1,20 @@
+.logo {
+  @include verticalCenter;
+  margin: 10px auto;
+  margin-left: 250px;
+  width: 700px;
+  border-radius: 10px;
+  padding: 20px 0;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.307);
+  background: url(../../assets/img/fd_img_logo.png) center/cover;
+
+  img {
+    height: 40px;
+    margin-right: 25px;
+  }
+
+  h2 {
+    margin-right: 400px;
+    color: $color-2;
+  }
+}
